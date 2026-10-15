@@ -1,4 +1,6 @@
 # scripts
+⚠️ Tip: Review script content before `chmod +x`  
+<br>
 
 ## fk.sh
 `fk.sh` is a bash wrapper for `faketime`. Accept hour offset, run command with spoofed system time.
@@ -9,9 +11,9 @@ Get UTC time:
 
 Create symlink for global command: `sudo ln -s /usr/local/scripts/fk.sh /usr/local/bin/fk`  
 Usage: `fk <offset_hours> <command...>`  
-Example: `fk +2 whoami`  
+Example: `fk +2 whoami`
 
-<br><br>
+<br>
 
 ## get_ports.py
 Extract open TCP/UDP port numbers from Nmap plaintext output.  
